@@ -1,3 +1,6 @@
+[English](https://github.com/CauehCraft/KUE-video-compressor#english)
+<p align="right"><a href="https://ko-fi.com/cauehcraft"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Tip">Donate on Ko-fi</a></p>
+
 # KUE Video Compressor
 
 KUE Video Compressor é um programa de compressão de vídeo que permite aos usuários reduzir o tamanho de seus arquivos de vídeo sem perder muita qualidade. Ele usa o ffmpeg para codificar os vídeos com aceleração de hardware da NVIDIA, AMD ou Intel, dependendo da placa gráfica do usuário.
