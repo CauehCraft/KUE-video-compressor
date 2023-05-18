@@ -74,3 +74,82 @@ subprocess.run([
 ```
 
 Certifique-se de alterar `tkinterdnd2_path` para o caminho correto para o módulo `tkinterdnd2` em seu sistema antes de executar este script.
+
+
+### English
+# KUE Video Compressor
+
+KUE Video Compressor is a video compression program that allows users to reduce the size of their video files without losing much quality. It uses ffmpeg to encode videos with hardware acceleration from NVIDIA, AMD or Intel, depending on the user's graphics card.
+
+## How to use
+
+1. Start the program and drag and drop a video file into the program window or click on the window to select a video file using the file dialog.
+
+2. Enter the desired size (in MB) for the compressed video file in the "Size (MB)" text box.
+
+3. Enter the desired FPS for the compressed video file in the "FPS" text box.
+
+4. Enter the desired resolution (in pixels) for the compressed video file in the "Resolution (px)" text box.
+
+5. Select the desired codec (h264 or h265) from the "Codec" dropdown menu.
+
+6. If you want the audio to be removed from the compressed video file, check the "Mute video" box.
+
+7. Click on the "Compress" button to start compressing the video.
+
+8. The program will display an animation while the video is being compressed and update the progress percentage in real time.
+
+9. When compression is complete, a new video file will be created with the suffix "_compressed" added to the original file name.
+
+## Requirements
+
+- Windows
+- NVIDIA, AMD or Intel graphics card compatible with hardware encoding
+- Updated graphics card driver
+- ffmpeg
+
+## Creating the executable
+
+To create an executable of the program, you can use PyInstaller. First, install Pip dependencies from `requirements.txt`:
+
+```
+pip install -r requirements.txt
+```
+
+Then run the PyInstaller command to create the executable:
+
+```
+pyinstaller --icon=imgs/icon.ico --windowed --add-data "imgs;imgs" --add-data "ffmpeg;ffmpeg" --add-data "tkinterdnd2_path;tkinterdnd2" --onefile main.py
+```
+
+Replace `tkinterdnd2_path` with the correct path to `tkinterdnd2` module on your system.
+
+You can also use `auto_build_project.py` script provided to automatically create executable:
+
+```python
+import sys
+import subprocess
+
+# Path to requirements.txt file
+requirements_path = "requirements.txt"
+
+# Install Pip dependencies from requirements.txt file
+subprocess.run([sys.executable, "-m", "pip", "install", "-r", requirements_path])
+
+# Path to tkinterdnd2 file, change if necessary.
+tkinterdnd2_path = "C:/Users/Caueh/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/site-packages/tkinterdnd2"
+
+# Run PyInstaller command to create executable
+subprocess.run([
+    "pyinstaller",
+    "--icon=imgs/icon.ico",
+    "--windowed",
+    "--add-data", f"imgs;imgs",
+    "--add-data", f"ffmpeg;ffmpeg",
+    "--add-data", f"{tkinterdnd2_path};tkinterdnd2",
+    "--onefile",
+    "main.py"
+])
+```
+
+Make sure to change `tkinterdnd2_path` to correct path for `tkinterdnd2` module on your system before running this script.
