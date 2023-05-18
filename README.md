@@ -1,9 +1,16 @@
-[English](https://github.com/CauehCraft/KUE-video-compressor#english)
-<p align="right"><a href="https://ko-fi.com/cauehcraft"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Tip">Donate on Ko-fi</a></p>
+| [English](#english) | [Donate on Ko-fi](https://ko-fi.com/cauehcraft) |
+|:---------------------------|--------------------------:|
 
 # KUE Video Compressor
 
 KUE Video Compressor é um programa de compressão de vídeo que permite aos usuários reduzir o tamanho de seus arquivos de vídeo sem perder muita qualidade. Ele usa o ffmpeg para codificar os vídeos com aceleração de hardware da NVIDIA, AMD ou Intel, dependendo da placa gráfica do usuário.
+
+## Índice
+
+- [KUE Video Compressor](#kue-video-compressor)
+- [Como usar](#como-usar)
+- [Requisitos](#requisitos)
+- [Criando o executável](#criando-o-executável)
 
 ## Como usar
 
@@ -79,10 +86,17 @@ subprocess.run([
 Certifique-se de alterar `tkinterdnd2_path` para o caminho correto para o módulo `tkinterdnd2` em seu sistema antes de executar este script.
 
 
-### English
+### English:
 # KUE Video Compressor
 
 KUE Video Compressor is a video compression program that allows users to reduce the size of their video files without losing much quality. It uses ffmpeg to encode videos with hardware acceleration from NVIDIA, AMD or Intel, depending on the user's graphics card.
+
+## Table of Contents
+
+- [KUE Video Compressor](#kue-video-compressor)
+- [How to use](#how-to-use)
+- [Requirements](#requirements)
+- [Creating the executable](#creating-the-executable)
 
 ## How to use
 
