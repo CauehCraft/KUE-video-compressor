@@ -16,7 +16,7 @@ KUE-VEC é um programa de corte e compressão de vídeo que permite aos usuário
 
 - #### Cortar videos
 
-  0. Execute o programa e clique na aba `Cortar Video`.
+  Execute o programa e clique na aba `Cortar Video`.
 
   1. Arraste e solte um arquivo de vídeo na janela do programa ou clique no botão de `Select video` para selecionar um arquivo de vídeo usando o diálogo de arquivo.
 
@@ -30,7 +30,7 @@ KUE-VEC é um programa de corte e compressão de vídeo que permite aos usuário
 
 - #### Compressão de video
 
-  0. Execute o programa e clique na aba `Comprimir Video`.
+  Execute o programa e clique na aba `Comprimir Video`.
 
   1. Arraste e solte um arquivo de vídeo na janela do programa ou clique na janela para selecionar um arquivo de vídeo usando o diálogo de arquivo.
 
@@ -114,39 +114,39 @@ KUE-VEC is a video cutting and compression program that allows users to reduce t
 
 - #### Cutting videos
 
-0. Run the program and click on the `Cut Video` tab.
+  Run the program and click on the `Cut Video` tab.
 
-1. Drag and drop a video file into the program window or click on the `Select video` button to select a video file using the file dialog.
+  1. Drag and drop a video file into the program window or click on the `Select video` button to select a video file using the file dialog.
 
-2. Use the sliders to control the video time and cut markers.
+  2. Use the sliders to control the video time and cut markers.
 
-3. Click on the `Cut` button to start the video cutting process.
+  3. Click on the `Cut` button to start the video cutting process.
 
-4. The progress bar in the lower left corner will show the progress of cutting the video.
+  4. The progress bar in the lower left corner will show the progress of cutting the video.
 
-5. When the cutting process is complete, a new video file will be created with the suffix "_kueclip" added to the original file name.
+  5. When the cutting process is complete, a new video file will be created with the suffix "_kueclip" added to the original file name.
 
 - #### Video compression
 
-0. Run the program and click on the `Compress Video` tab.
+  Run the program and click on the `Compress Video` tab.
 
-1. Drag and drop a video file into the program window or click on the window to select a video file using the file dialog.
+  1. Drag and drop a video file into the program window or click on the window to select a video file using the file dialog.
 
-2. Enter the desired size (in MB) for the compressed video file in the "Size (MB)" text box.
+  2. Enter the desired size (in MB) for the compressed video file in the "Size (MB)" text box.
 
-3. Enter the desired FPS for the compressed video file in the "FPS" text box.
+  3. Enter the desired FPS for the compressed video file in the "FPS" text box.
 
-4. Enter the desired resolution (in pixels) for the compressed video file in the "Resolution (px)" text box.
+  4. Enter the desired resolution (in pixels) for the compressed video file in the "Resolution (px)" text box.
 
-5. Select the desired codec (h264 or h265) from the "Codec" drop-down menu.
+  5. Select the desired codec (h264 or h265) from the "Codec" drop-down menu.
 
-6. If you want audio to be removed from the compressed video file, check the "Mute video" box.
+  6. If you want audio to be removed from the compressed video file, check the "Mute video" box.
 
-7. Click on "Compress" button to start compressing video.
+  7. Click on "Compress" button to start compressing video.
 
-8. The program will display an animation while compressing video and update progress percentage in real time.
+  8. The program will display an animation while compressing video and update progress percentage in real time.
 
-9. When compression is complete, a new video file will be created with "_comp" suffix added to original file name.
+  9. When compression is complete, a new video file will be created with "_comp" suffix added to original file name.
 
 ## Requirements
 
