@@ -112,7 +112,7 @@ KUE-VEC is a video cutting and compression program that allows users to reduce t
 
 ## How to use
 
-- ##### Cutting videos
+- #### Cutting videos
 
 0. Run the program and click on the `Cut Video` tab.
 
@@ -126,7 +126,7 @@ KUE-VEC is a video cutting and compression program that allows users to reduce t
 
 5. When the cutting process is complete, a new video file will be created with the suffix "_kueclip" added to the original file name.
 
-- ##### Video compression
+- #### Video compression
 
 0. Run the program and click on the `Compress Video` tab.
 
