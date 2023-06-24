@@ -57,6 +57,7 @@ KUE-VEC é um programa de corte e compressão de vídeo que permite aos usuário
 - Windows
 - (Opcional) Placa gráfica NVIDIA, AMD ou Intel compatível com codificação de hardware
 - ffmpeg
+- VLC 
 
 ## Criando o executável
 
@@ -153,6 +154,7 @@ KUE-VEC is a video cutting and compression program that allows users to reduce t
 - Windows
 - (Optional) NVIDIA, AMD or Intel graphics card compatible with hardware encoding
 - ffmpeg
+- VLC 
 
 ## Creating executable
 To create an executable of program, you can use provided `auto_build_project.py` script to automatically create executable:
